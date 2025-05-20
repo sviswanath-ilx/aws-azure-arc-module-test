@@ -38,7 +38,7 @@ module "tags" {
 
 module "azure_arc_aws" {
 
-  source  = "git::?ref=1.0.0"
+  source  = "git::https://github.com/sviswanath-ilx/aws-azure-arc-module-test?ref=1.0.0"
   ArcForServerEC2SSMRoleName                  = local.ArcForServerEC2SSMRoleName
   ArcForServerSSMInstanceProfileName          = local.ArcForServerSSMInstanceProfileName
   EC2SSMIAMRoleAutoAssignment                 = local.EC2SSMIAMRoleAutoAssignment
